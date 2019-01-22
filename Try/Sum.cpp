@@ -6,12 +6,11 @@
 using namespace std;
 
 int main ()
-{
-	int i;
-	cout<<"Hello";
-	i=getch(); //ожидание отклика нажатие, но прерывает исполнение программы
-	cout<<"Key = "<<data();
-	
+{ int a;
+	char i;
+	a=getch();
+	i=a;
+	cout<<"You press key = "<<a<<" is '"<<i<<"'";	
 	getch();
 	return 0;
 }
