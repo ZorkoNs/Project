@@ -10,7 +10,8 @@ int main ()
 	char i;
 	a=getch();
 	i=a;
-	cout<<"You press key = "<<a<<" is '"<<i<<"'";	
+	cout<<"You press key = "<<a<<" is '"<<i<<"'";
+	cout<<"Hello Shaman";	
 	getch();
 	return 0;
 }
